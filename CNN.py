@@ -11,8 +11,8 @@ input_shape = (img_width, img_height, 3)
 
 train_data_dir = "data/train"
 validation_data_dir = "data/validation"
-nb_train_samples = 160
-nb_validation_samples = 20
+nb_train_samples = 500
+nb_validation_samples = 100
 batch_size = 5
 epochs = 10
 

@@ -31,7 +31,7 @@ def autoroi(img):
     thresh = cv2.threshold(gray_img, 130, 255, cv2.THRESH_BINARY)[1]
     thresh = cv2.dilate(thresh, None, iterations=5)
 
-    im2, contours, hierarchy = cv2.findContours(
+    contours, hierarchy = cv2.findContours(
         thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     biggest = max(contours, key=cv2.contourArea)

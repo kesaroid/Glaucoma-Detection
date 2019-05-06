@@ -1,3 +1,1 @@
-The dataset folder does not contain all the images required to train the model. Use your own dataset or contact author to get the data.
-
-Contact: kesartn@gmail.com
+The dataset folder does not contain all the images required to train the model. Please use your own dataset.

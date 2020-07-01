@@ -1,0 +1,9 @@
+# CNN.py
+keras
+imgaug
+h5py
+
+# GUI.py
+matplotlib
+numpy
+pandas

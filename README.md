@@ -14,5 +14,9 @@ Packages Required:
 7. h5py
 8. imgaug
 
+Which—with the exception of OpenCV—can be installed with:
+```
+pip install -r requirements.txt
+```
 
 Citation: "Kesar T. N, T. C Manjunath, 'Diagnosis & detection of eye diseases using Deep Convolutional Neural Networks & Raspberry Pi', Second IEEE International Conference on Green Computing & Internet of Things (IOT), ICGCIoT, IEEE ISBN: 978-1-5386-5657-0"
